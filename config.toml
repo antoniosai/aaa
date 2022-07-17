@@ -1,0 +1,53 @@
+baseURL = 'https://antoniosai.vercel.app/'
+languageCode = 'en-us'
+title = 'Antonio Saiful Islam'
+
+theme = 'digital-garden-hugo-theme'
+
+[menu]
+[[menu.main]]
+  name = 'Welcome Page'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'About Me'
+  url = '/about'
+  weight = 2
+[[menu.main]]
+  name = 'Articles'
+  url = '/articles'
+  weight = 3
+[[menu.main]]
+  name = 'A Workspace'
+  url = '/workspace'
+  weight = 4
+
+[[menu.social]]
+  name = 'Twitter'
+  url = 'https://twitter.com/antoniosai'
+  weight = 1
+[[menu.social]]
+  name = 'GitHub'
+  url = 'https://github.com/antoniosai'
+  weight = 2
+[[menu.social]]
+  name = 'LinkedIn'
+  url = 'https://linkedin.com/antoniosai'
+  weight = 3
+[[menu.social]]
+  name = 'Instagram'
+  url = 'https://instagram.com/antoniosai'
+  weight = 4
+[[menu.social]]
+  name = 'Email'
+  url = 'mailto:finallyantonio@gmail.com'
+  weight = 5
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
