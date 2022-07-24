@@ -1,6 +1,6 @@
-baseURL = 'https://antoniosai.vercel.app/'
+baseURL = 'https://antoniosai.github.io'
 languageCode = 'en-us'
-title = 'Antonio Saiful Islam'
+title = 'All About Antonio'
 
 theme = 'digital-garden-hugo-theme'
 
